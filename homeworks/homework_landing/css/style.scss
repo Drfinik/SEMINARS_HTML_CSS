@@ -46,7 +46,7 @@ a {
     margin-top: 40px;
 }
 
-.top-logo {
+.top_logo {
     padding-top: 5px;   
 }
 .nav__lists {
@@ -54,7 +54,7 @@ a {
     gap: 34px;
 }
 
-.nav-list {
+.nav__list {
     padding-top: 11px;   
     color: #000;
     font-family: Gilroy-Medium;
@@ -62,15 +62,15 @@ a {
     font-weight: 400;
 }
 
-.nav-list-color {
+.nav__list__color {
     color: #F25822;
 }
 
-.img-inline {
+.img__inline {
     display: inline;
 }
 
-.bnt-nav-list {
+.bnt__nav__list {
     border-radius: 30px;
     background: #F25822;
     color: #FFF;
@@ -83,12 +83,12 @@ a {
     cursor: pointer;
 }
 
-.home-page {
+.home__page {
     display: flex;
 
 }
 
-.top-content {
+.top__content {
     max-width: 543px;
     margin-right: 41px;
     margin-top: 143px;
@@ -118,17 +118,17 @@ p {
     max-width: 430px;
 }
 
-.top-img {
+.top__img {
     margin-top: 83px;
     margin-bottom: 60px;
 }
 
-.bnt-top-group {
+.bnt__top__group {
     margin-top: 37px;
     display: flex;
 }
 
-.bnt-top-conteht {
+.bnt__top__conteht {
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
@@ -140,18 +140,18 @@ p {
     cursor: pointer;
 }
 
-.bnt-top-video {
+.bnt__top__video {
     border: none;
     background-color: #FFF;
     display: flex;
     cursor: pointer;
 }
 
-.icon-video {
+.icon__video {
     padding: 10px 15px 10px 0;
 }
 
-.bnt-video-text {
+.bnt__video__text {
     display: block;
     color: #AAA;
     font-family: Gilroy-Bold;
@@ -159,7 +159,7 @@ p {
     
     
 }
-.brand-logo {
+.brand__logo {
     display: flex;
     margin-top: 200px;
     justify-content: space-between;

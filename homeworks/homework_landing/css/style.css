@@ -39,17 +39,21 @@ a {
 .navigation {
   display: flex;
   justify-content: space-evenly;
+  gap: 346px;
   margin-top: 40px;
 }
 
 .top-logo {
   padding-top: 5px;
-  padding-right: 346px;
+}
+
+.nav__lists {
+  display: flex;
+  gap: 34px;
 }
 
 .nav-list {
   padding-top: 11px;
-  padding-right: 34px;
   color: #000;
   font-family: Gilroy-Medium;
   font-size: 14px;

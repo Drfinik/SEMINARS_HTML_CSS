@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Gillroy-Bold";
-  src: url("../font/Gilroy-Bold.woff2");
+  src: url("../font/Gilroy-Bold.woff2") format("woff2");
 }
 @font-face {
   font-family: "Gillroy-Medium";
-  src: url("../font/Gilroy-Medium.woff2");
+  src: url("../font/Gilroy-Medium.woff2") format("woff2");
 }
 @font-face {
   font-family: "Gillroy-Semibold";
-  src: url("../font/Gilroy-Semibold.woff2");
+  src: url("../font/Gilroy-Semibold.woff2") format("woff2");
 }
 * {
   margin: 0;
@@ -89,15 +89,15 @@ a {
   max-width: 543px;
   margin-right: 41px;
   margin-top: 143px;
+  background-image: url(../img/element.png);
+  background-repeat: no-repeat;
 }
 
 h1 {
   color: #000;
   font-family: Gilroy-Bold;
   font-size: 60px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   padding-bottom: 10px;
 }
 

@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "Gillroy-Bold";
+  font-family: "Gilroy-Bold";
   src: url("../font/Gilroy-Bold.woff2") format("woff2");
 }
 @font-face {
-  font-family: "Gillroy-Medium";
+  font-family: "Gilroy-Medium";
   src: url("../font/Gilroy-Medium.woff2") format("woff2");
 }
 @font-face {
-  font-family: "Gillroy-Semibold";
+  font-family: "Gilroy-Semibold";
   src: url("../font/Gilroy-Semibold.woff2") format("woff2");
 }
 * {

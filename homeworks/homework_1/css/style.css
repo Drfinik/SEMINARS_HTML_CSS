@@ -43,17 +43,13 @@ h2 {
 
 .cards {
   display: flex;
+  gap: 30px;
   margin-top: 50px;
 }
 
 .card {
   width: 400px;
   border: 5px solid rgb(196, 92, 7);
-  margin-left: 10px;
-}
-
-.card-margin-left {
-  margin-right: 10px;
 }
 
 img {

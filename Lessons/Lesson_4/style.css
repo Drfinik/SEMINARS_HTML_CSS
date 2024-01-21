@@ -25,7 +25,7 @@ img {
 
 .container {
     max-width: 1146px;
-    margin: 0 auto;
+    margin: 0 auto;   
 }
 
 .header {
@@ -36,12 +36,12 @@ img {
     padding: 39px 0;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 39px;
 }
 
 .navigation__link {
     font-size: 16px;
-    line-height: 22px;
+    line-height: normal;
     color: #fff;
 }
 
@@ -66,6 +66,10 @@ img {
     text-transform: uppercase;
     margin-bottom: 10px;
 }
+.top_content_img {
+    width: 36%;
+    height: 36%;
+}
 
 h1 {
     font-size: 55px;
@@ -81,6 +85,7 @@ h2 {
     margin-bottom: 40px;
 }
 
+
 p {
     max-width: 558px;
     font-size: 18px;
@@ -95,6 +100,7 @@ p {
 }
 
 .btn {
+    width: 171px;
     color: #fff;
     font-family: "Open Sans";
     font-size: 20px;
@@ -108,6 +114,7 @@ p {
 }
 
 .btn-play {
+    width: 217px;
     display: flex;
     gap: 10px;
 }
@@ -115,7 +122,7 @@ p {
 .logos {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 256px;
 }
 
 .content__right-side {
@@ -175,6 +182,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 50px;
 }
 
 .contact_content {
@@ -185,20 +193,119 @@ p {
     line-height: normal;
 }
 
-.contact_content h3 {    
-    font-size: 16px;    
+.contact_content h3 {
+    font-size: 16px;
     margin-bottom: 33px;
 }
 
-.contact_content p {    
+.contact_content p {
     font-size: 14px;
-    margin-bottom: 24px;    
+    margin-bottom: 24px;
 }
+
 .contact_content p img {
     display: inline;
     padding-right: 9px;
 }
+
 .contact_icon {
     display: flex;
     gap: 24px;
+}
+@media (max-width: 1024px) {
+    .content__left-side h3 {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content__left-side {
+        padding-bottom: 128px;
+    }
+    .logos {
+        max-width: 733px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logo_img {
+        padding-left: 32px;
+    }
+    .card_none {
+        display: none;
+    }
+    .carts__list {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+    .card {
+        width: 362px;
+    }
+    .contact {
+        max-width: 628px;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .navigation {
+        gap: 15px;
+    }
+
+    .navigation__link {
+        font-size: 14px;
+
+    }
+    .content__left-side h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    .content__btn-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logos {        
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 212px;
+    }
+    .logo_img {
+        padding-left: 0;
+        padding-bottom: 32px;
+        max-width: 294px;
+    }
+    .content__right-side h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .content__left-side h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact_content h3 {
+        text-align: center;
+        font-size: 16px;
+    }
+    .contact_content p {
+        text-align:left;
+        font-size: 14px;
+    }
 }
